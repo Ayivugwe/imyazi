@@ -250,16 +250,16 @@ class _HomeScreenState extends State<HomeScreen> {
                                               color: Colors.grey,
                                             ),
                                           ),
-                                          const Spacer(),
-                                          const Icon(
+                                          Spacer(),
+                                          Icon(
                                             Icons.source,
                                             size: 16,
                                             color: Colors.grey,
                                           ),
-                                          const SizedBox(width: 4),
+                                          SizedBox(width: 4),
                                           Text(
                                             article.source,
-                                            style: const TextStyle(
+                                            style: TextStyle(
                                               color: Colors.grey,
                                             ),
                                           ),
@@ -278,7 +278,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: 0,
-        items: const [
+        items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
